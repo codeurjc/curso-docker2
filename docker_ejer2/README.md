@@ -1,0 +1,1 @@
+docker run --rm -v "$PWD":/usr/src/app/ -w /usr/src/app maven:3-jdk-8-slim mvn package

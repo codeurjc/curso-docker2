@@ -1,0 +1,1 @@
+docker run --rm -it -v "$PWD":/usr/src/app/ -w /usr/src/app maven:3-jdk-8-slim bash

@@ -1,0 +1,2 @@
+
+docker run --name some-drupal -p 8080:80 -d drupal

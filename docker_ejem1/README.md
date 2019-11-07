@@ -1,0 +1,1 @@
+docker run -p 9000:80 -v "$PWD":/usr/share/nginx/html:ro -d nginx
