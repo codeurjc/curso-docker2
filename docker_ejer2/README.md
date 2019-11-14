@@ -1,1 +1,1 @@
-docker run --rm -v "$PWD":/usr/src/app/ -w /usr/src/app maven:3-jdk-8-slim mvn package
+docker run --rm -p 8080:8080 -v "$PWD":/usr/src/app/ -w /usr/src/app openjdk:8 java -jar despliegue_ejem1-0.0.1.jar
